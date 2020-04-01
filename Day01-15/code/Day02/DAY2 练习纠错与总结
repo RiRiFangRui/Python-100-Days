@@ -1,0 +1,26 @@
+练习1：华氏温度转换为摄氏温度。
+    f = float (input ('f = '))
+    c = (f - 32) / 1.8
+    print ('%.1f f= %.1f c' % (f , c ))
+总结：格式化输出 print ('%.1f f= %.1f c' % (f , c )) 输出小数点后一位。
+                print('%d + %d = %d' % (a, b, a + b)) 输出整数
+                 
+                 
+                 
+ 练习2：输入圆的半径计算计算周长和面积。
+      import math
+      r = float(input('please enter r = '))
+      l = 2 * r * math.pi
+      s = r * r * math.pi
+      print('l = %.2f , s = %.2f' % (l,s))     
+ 总结： import math。variable declaration is much simpler than C.
+ 
+ 练习3：输入年份判断是不是闰年。
+       year = int(input('please enter year : '))
+      if (year%4 == 0 and year%100 != 0) or year%400 == 0:
+          print( year, 'is leap  year')
+      else:
+          print ( year, 'is not leap year')
+  总结： 错误输出： print ( year 'is not leap year')。变量year后缺少分隔逗号。
+  
+   
