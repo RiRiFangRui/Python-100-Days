@@ -42,3 +42,6 @@ print(k)
 print(type(k))
 print(m)
 print(type(m))
+
+
+总结：变量类型互换函数
