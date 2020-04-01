@@ -15,3 +15,6 @@ for factor in range(x, 0, -1):
         print('%d和%d的最大公约数是%d' % (x, y, factor))
         print('%d和%d的最小公倍数是%d' % (x, y, x * y // factor))
         break
+总结： for factor in range(x, 0, -1):步数为-1实现从大到小取值，牛逼
+    if x > y:
+    (x, y) = (y, x) #取小的那个数
