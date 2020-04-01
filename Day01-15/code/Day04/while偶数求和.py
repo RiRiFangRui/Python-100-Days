@@ -11,3 +11,6 @@ while num <= 100:
     sum += num
     num += 2
 print(sum)
+
+
+总结： sum, num = 0, 2 连续赋值
