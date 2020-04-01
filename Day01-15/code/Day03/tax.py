@@ -37,3 +37,6 @@ else:
 tax = abs(diff * rate - deduction)
 print('个人所得税: ￥%.2f元' % tax)
 print('实际到手收入: ￥%.2f元' % (diff + 3500 - tax))
+
+
+总结：好聪明啊，用diff， rate和deduction分段表示所扣税
