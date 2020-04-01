@@ -21,3 +21,7 @@ elif face == 5:
 else:
     result = '讲冷笑话'
 print(result)
+
+
+总结：生成随机数： from random import randint
+      字符串的pass on. result = 'blablabla'
