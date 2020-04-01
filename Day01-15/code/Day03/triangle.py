@@ -18,3 +18,17 @@ if a + b > c and a + c > b and b + c > a:
     print('面积: %f' % (area))
 else:
     print('不能构成三角形')
+    
+    
+    
+a = float(input('please enter a:'))
+b = float(input('please enter b:'))
+c = float(input('please enter c:'))
+if a + b > c and b + c > a and a + c > b :
+    l = a + b + c
+    p = (a + b + c) / 2
+    s = (p * (p - a) * (p - b) * (p - c)) ** 0.5
+    print ('l = %f , s = %f' % (l , s ))
+else: print('invalid number')
+    
+    
