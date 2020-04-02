@@ -14,3 +14,7 @@ for num in range(100, 1000):
     high = num // 100
     if num == low ** 3 + mid ** 3 + high ** 3:
         print(num)
+
+        
+总结: //运算符，向下取整。ex:187//10=18，8475//100=84
+      **运算符，次方.
