@@ -12,3 +12,6 @@ b = 1
 for _ in range(20):
     a, b = b, a + b
     print(a, end=' ')
+
+    
+总结：？？？我写的是什么狗屁东西？？？
