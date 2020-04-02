@@ -18,3 +18,16 @@ for num in range(1, 10000):
                 result += num // factor
     if result == num:
         print(num)
+
+        
+        
+        
+  for num in range(1,10001):
+    j = 0
+    for i in range(1, num):
+        if num%i == 0:
+            j = j + i
+    if num == j:
+        print (num)    
+        
+  总结：嘻嘻嘻我会写！
