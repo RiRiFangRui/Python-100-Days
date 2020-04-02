@@ -16,3 +16,16 @@ for num in range(2, 100):
             break
     if is_prime:
         print(num, end=' ')
+
+        
+    for num in range(1,101):
+    j = 0
+    for i in range(1, num+1):
+        if num%i == 0:
+            j += 1
+    if j == 2:
+        print (num)
+        
+        
+        
+  总结：素数前两天，用count计数如果数了两次就没有其它公约数
