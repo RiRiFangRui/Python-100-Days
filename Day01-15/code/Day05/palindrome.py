@@ -18,3 +18,8 @@ if num == num2:
     print('%d是回文数' % num)
 else:
     print('%d不是回文数' % num)
+
+    
+    
+总结：num不能改变，还要和invert后的数字作比较，所以用temp赋值改变temp的数值。
+    我不会反转公式。两遍了还是捋不清逻辑。数据算法结构不及格。
