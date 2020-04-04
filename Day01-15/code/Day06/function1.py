@@ -16,3 +16,6 @@ def factorial(n):
 
 
 print(factorial(7) // factorial(3) // factorial(4))
+
+
+结论：封装
