@@ -38,3 +38,7 @@ os.system('ls -l')
 os.chdir('/Users/Hao')
 os.system('ls -l')
 os.mkdir('test')
+
+总结：
+https://blog.csdn.net/qq_40674583/article/details/81940974
+常用模块及解释
