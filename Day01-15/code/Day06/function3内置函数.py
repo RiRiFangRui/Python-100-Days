@@ -27,3 +27,9 @@ print(fruits[slice(1, 3)])
 fruits2 = list(filter(myfilter, fruits))
 print(fruits)
 print(fruits2)
+
+
+
+补充文档
+https://docs.python.org/zh-cn/3.7/library/functions.html#abs
+各内置函数的意义和调用
