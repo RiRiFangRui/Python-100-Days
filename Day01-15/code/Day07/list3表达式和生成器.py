@@ -43,3 +43,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
+    
+总结：    list3 = [m + n for m in 'ABCDEFG' for n in '12345']，生成一个矩阵了。注意这里用[].
+            生成器用（）圆括号。
+        37行给gen赋值，gen定义是生成器（）所以只是外壳。
