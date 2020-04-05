@@ -35,3 +35,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    
+    
+总结：discard 和 remove。 我的脑子被冻住。
