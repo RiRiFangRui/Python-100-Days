@@ -23,3 +23,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    
+总结：names 和 scores的数组大小是以number定义的。
+    for index in range(len(names)): 为啥不是for index in range (number) 好像都一样啊，不理解。
