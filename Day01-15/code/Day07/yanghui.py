@@ -30,3 +30,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    
+    
+    
+总结：算法原理：yh[][] 二维数组，yh[row][col] = yh[row-1][col] + yh [row-1][col-1]。好的。
