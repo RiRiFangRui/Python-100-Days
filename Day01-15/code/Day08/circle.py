@@ -40,3 +40,7 @@ if __name__ == '__main__':
     big = Circle(radius + 3)
     print('围墙的造价为: ￥%.1f元' % (big.perimeter * 115))
     print('过道的造价为: ￥%.1f元' % ((big.area - small.area) * 65))
+
+    
+    
+总结：写到是能写，搞不清楚继承和self，看网站https://blog.csdn.net/CLHugh/article/details/75000104
