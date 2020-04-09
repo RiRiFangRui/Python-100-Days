@@ -54,3 +54,18 @@ if __name__ == '__main__':
         if gm.counter > 7:
             print('智商余额不足!')
         play_again = input('再玩一次?(yes|no)') == 'yes'
+
+        
+        
+        
+  总结：随机数radiant的产生        self._answer = randint(1, 100)
+        思考类中的函数如何分类
+        在初始化中 __init__ 设置传递参数，应考虑用户输入，传递，计数，等多方面。写出的程序越简单越好
+        
+        @property有类似private的含义，保证属性不能通过赋值的方法修改。会报错can‘t attribute, 但可通过setter getter deleter 进行ACCESS
+        如下
+          def width(self):
+            return self.true_width
+        @width.setter
+         def width(self, input_width):
+            self.true_width = input_width
