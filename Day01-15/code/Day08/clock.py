@@ -49,3 +49,10 @@ if __name__ == '__main__':
         print(clock.show())
         time.sleep(1)
         clock.run()
+
+
+
+总结：  https://www.cnblogs.com/di2wu/p/8940019.html 
+        time函数的各种应用
+        https://blog.csdn.net/maliao1123/article/details/52152989?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-4&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-4
+        arg 和 kw区别和应用举例
