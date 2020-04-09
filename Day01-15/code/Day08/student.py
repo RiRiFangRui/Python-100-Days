@@ -44,5 +44,6 @@ if __name__ == '__main__':
     main()
 
     
-    
-总结：明天重点研究，做完08，09
+总结：关键点：调用类时 stu1 = Student('fangrui', 24) 调出 __init__用stu1内数据初始化类。
+以self开头的 self.name = name 和 self.age = age 参数可以在整个类中传递
+所以调用 stu.watch_av 时可以用age写if语句
