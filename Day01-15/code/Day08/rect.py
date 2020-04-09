@@ -26,6 +26,10 @@ class Rect(object):
     def __str__(self):
         """矩形对象的字符串表达式"""
         return '矩形[%f,%f]' % (self.__width, self.__height)
+    
+    
+总结： __str__在main中调用print时会输出的函数，具体看下网址   
+https://blog.csdn.net/Zhongjie1986/article/details/91732434
 
     def __del__(self):
         """析构器"""
