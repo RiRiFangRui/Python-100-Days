@@ -10,36 +10,42 @@ Date: 2018-03-12
 
 
 class A(object):
-
     def foo(self):
         print('foo of A')
-
 
 class B(A):
     pass
 
-
 class C(A):
-
     def foo(self):
         print('foo fo C')
-
 
 class D(B, C):
     pass
 
-
 class E(D):
-
     def foo(self):
         print('foo in E')
         super().foo()
         super(B, self).foo()
         super(C, self).foo()
 
-
 if __name__ == '__main__':
     d = D()
     d.foo()
     e = E()
     e.foo()
+
+输出：
+foo fo C
+foo in E
+foo fo C
+foo fo C
+foo of A
+    
+问题：43行输出怎么回事？
+    30行 将B的父类A的foo给B，调用B类发现pass，主动过到下一个C类？我晕了 一会儿回来
+
+
+总结：https://blog.csdn.net/weixin_40636692/java/article/details/79940501  看各种类的继承。
+    super(), 在子类中即使已经覆盖父类方法也可用它调用出来父类方法。
