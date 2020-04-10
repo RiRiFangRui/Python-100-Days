@@ -49,3 +49,9 @@ if __name__ == '__main__':
         # print(type(Triangle.perimeter))
     else:
         print('不能构成三角形.')
+
+        
+总结： 
+19-22 用return 合并几个条件，bool型变量
+35-37 用split()将字符串拆分，用map()映射。
+python好牛逼啊
