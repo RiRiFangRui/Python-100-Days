@@ -64,3 +64,8 @@ son.gamble()
 son.eat()
 son.chant()
 son.play_piano()
+
+
+
+
+总结：如果有命名相同的方法，继承第一个出现的
