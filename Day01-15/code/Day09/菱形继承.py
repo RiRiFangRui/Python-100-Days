@@ -45,7 +45,13 @@ foo of A
     
 问题：43行输出怎么回事？
     30行 将B的父类A的foo给B，调用B类发现pass，主动过到下一个C类？我晕了 一会儿回来
-
+    
+    回来了
+    https://blog.csdn.net/biexiaofei/article/details/86484177?depth_1-utm_source=distribute.
+    pc_relevant.none-task-blog-OPENSEARCH-2&utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-2
+    菱形继承的拓扑
 
 总结：https://blog.csdn.net/weixin_40636692/java/article/details/79940501  看各种类的继承。
     super(), 在子类中即使已经覆盖父类方法也可用它调用出来父类方法。
+    
+
