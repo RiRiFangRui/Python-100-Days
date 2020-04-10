@@ -73,3 +73,9 @@ if __name__ == '__main__':
             sales = float(input('请输入%s本月销售额: ' % emp.name))
             emp.set_sales(sales)
         print('%s本月月薪为: ￥%.2f元' % (emp.name, emp.get_salary()))
+        
+        
+        
+        
+        
+总结：好，我读完了，反正看得懂，没不理解的地方。写么是不可能的。
