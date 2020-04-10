@@ -42,3 +42,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    
+总结：while与bool型变量搭配需要掌握好。
