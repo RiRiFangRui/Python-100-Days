@@ -31,3 +31,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    
+总结：
+    虽然图文关系不太大，在学习进度中pet上面一道程序出现super()函数，https://blog.csdn.net/qq_38787214/article/details/87902291
