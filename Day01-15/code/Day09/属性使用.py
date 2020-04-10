@@ -55,9 +55,29 @@ print(car)
 # 如果提供了删除器可以执行下面的代码
 # del car.brand
 # 属性的实现
+print(car.brand)
 print(Car.brand)
 print(Car.brand.fget)
 print(Car.brand.fset)
 print(Car.brand.fdel)
 # 通过上面的代码帮助学生理解之前提到的包装器的概念
 # Python中有很多类似的语法糖后面还会出现这样的东西
+
+
+输出：
+Car: [品牌=QQ, 最高时速=120]
+Car: [品牌=Benz, 最高时速=320]
+Benz
+<property object at 0x000001DC372B0408>
+<function Car.brand at 0x000001DC3729AAF8>
+<function Car.brand at 0x000001DC3729AB88>
+<function Car.brand at 0x000001DC3729AC18>
+
+
+总结：
+14行 __slots__ :   https://blog.csdn.net/tianqio/article/details/2374086
+slots的作用是阻止在实例化类时为实例分配dict，默认情况下每个类都会有一个dict,通过__dict__访问，这个dict维护了这个实例的所有属性.
+
+@property: 将方法伪装成属性，不能传入任何参数。
+
+39行：raise ValueError()。在输出显示报错。
