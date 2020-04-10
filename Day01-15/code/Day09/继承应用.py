@@ -62,3 +62,6 @@ if __name__ == '__main__':
         print(shape)
         print('周长:', shape.perimeter())
         print('面积:', shape.area())
+
+        
+ 总结：Python的ABC模块：https://blog.csdn.net/igorzhang/article/details/39026885  但是我看不懂喜喜
