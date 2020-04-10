@@ -69,3 +69,19 @@ if __name__ == '__main__':
     line.start.move_to(2, 1)
     line.end = Point(1, 2)
     print(line.length)
+
+    
+    
+    
+    
+    
+    
+输出：
+(3, 5)
+(-2, -1.5)
+8.200609733428363
+1.4142135623730951
+
+总结：other到底是他妈什么东西
+self.x指的是实例对象度p1的属性问值
+other.x指的是实例对象p2的属性值
