@@ -79,3 +79,20 @@ if __name__ == '__main__':
     stu2.drive(car)
     print(stu1 > stu2)
     print(stu1 < stu2)
+
+    
+    
+运行结果：
+骆昊正在学习Python程序设计.
+骆昊正在观看岛国爱情动作片.
+王大锤正在学习思想品德.
+王大锤只能观看《熊出没》.
+王大锤驾驶着QQ欢快的行驶在去西天的路上
+QQ当前时速30
+QQ当前时速80
+QQ当前时速120
+True
+False
+
+总结：
+有了，上一届的难题self和other怎么区分，80，81行，比较符号前的时self后的是other。
