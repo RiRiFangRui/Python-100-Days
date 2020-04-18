@@ -14,3 +14,6 @@ with open('pi_million_digits.txt') as f:
         pi_string += line.strip()
     if birth in pi_string:
         print('Bingo!!!')
+
+        
+总结： 看是看得懂，但是又要创建pi文件就很头疼。先看一看吧
