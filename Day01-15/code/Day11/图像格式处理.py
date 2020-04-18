@@ -18,3 +18,5 @@ with open('mm.jpg', 'rb') as f:
 with open('girl.jpg', 'wb') as f:
     f.write(data)
 print('写入完成!')
+
+总结：图像格式都能处理了，牛逼
