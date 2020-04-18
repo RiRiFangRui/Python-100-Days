@@ -24,3 +24,9 @@ with open('prime.txt', 'w') as f:
         if is_prime(num):
             f.write(str(num) + '\n')
 print('写入完成!')
+
+
+
+
+总结：
+a是追加，add。w就是单纯写入 write。
