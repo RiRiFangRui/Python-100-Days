@@ -40,3 +40,25 @@ print(email.lstrip())
 pyperclip.copy('老虎不发猫你当我病危呀')
 # 从系统剪切板获得文本
 # print(pyperclip.paste())
+
+
+
+
+总结：输出如下：
+
+My brother's name is '007'
+My brother\'s name is \'007\'
+True
+False
+False
+True
+False
+True
+True
+床前明月光-疑是地上霜-举头望明月-低头思故乡
+['You', 'go', 'your', 'way', 'I', 'will', 'go', 'mine']
+     jackfrued@126.com          
+jackfrued@126.com
+jackfrued@126.com          
+
+Process finished with exit code 0
